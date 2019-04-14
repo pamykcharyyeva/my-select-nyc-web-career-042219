@@ -1,6 +1,6 @@
 def my_select(collection)
 i=0 
-newArray =[]
+newArray = [ ]
 while i< collection.length do
 if yield (collection[i]) == true 
   newarray << collections[i]
